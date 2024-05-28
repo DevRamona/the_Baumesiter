@@ -540,9 +540,24 @@ video {
   visibility: visible;
 }
 
-.mx-6{
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+.m-4{
+  margin: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .bg-green-600{
@@ -550,11 +565,14 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
-.bg-green-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
-}
-
 .font-body{
   font-family: Outfit;
+}
+
+.text-\[3rem\]{
+  font-size: 3rem;
+}
+
+.font-bold{
+  font-weight: 700;
 }
