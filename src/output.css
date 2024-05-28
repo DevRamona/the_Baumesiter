@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -548,6 +548,10 @@ video {
   top: 0px;
 }
 
+.m-4{
+  margin: 1rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -556,12 +560,24 @@ video {
   display: flex;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
 }
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .bg-green-600{
@@ -581,6 +597,18 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-\[3rem\]{
+  font-size: 3rem;
+}
+
+.font-\[400\]{
+  font-weight: 400;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .font-normal{
