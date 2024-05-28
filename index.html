@@ -16,17 +16,25 @@
     }
 
     window.onload = () => {
-        loadComponents('header', 'src/sections/header.html');
+        loadComponents('navbar', 'src/sections/navbar.html');
         loadComponents('hero', 'src/sections/hero.html');
-        loadComponents('contact', 'src/sections/contact.html');
+        loadComponents('about', 'src/sections/about.html');
         loadComponents('footer', 'src/sections/footer.html');
+        loadComponents('imprint', 'src/sections/imprint.html');
+        loadComponents('privacy', 'src/sections/privacy.html');
+        loadComponents('service', 'src/sections/service.html');
+        loadComponents('reference', 'src/sections/reference.html');
+
     }
 </script>
 <body>
-    <h1 class="bg-green-600">Hello World</h1>
-    <div id="header"></div>
+    <div id="navbar"></div>
     <div id="hero"></div>
-    <div id="contact"></div>
+    <div id="about"></div>
+    <div id="imprint"></div>
+    <div id="privacy"></div>
+    <div id="reference"></div>
+    <div id="service"></div>
     <div id="footer"></div>
 </body>
 </html>

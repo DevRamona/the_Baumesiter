@@ -540,8 +540,20 @@ video {
   visibility: visible;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .m-4{
   margin: 1rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
 }
 
 .flex{
@@ -550,6 +562,14 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .justify-between{
@@ -565,6 +585,11 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .font-body{
   font-family: Outfit;
 }
@@ -578,10 +603,55 @@ video {
   font-size: 3rem;
 }
 
+.text-\[1\.75rem\]{
+  font-size: 1.75rem;
+}
+
+.text-\[1\.5rem\]{
+  font-size: 1.5rem;
+}
+
 .font-\[400\]{
   font-weight: 400;
 }
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:px-24{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
