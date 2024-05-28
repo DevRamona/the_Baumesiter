@@ -556,6 +556,7 @@ video {
   bottom: -5rem;
 }
 
+<<<<<<< HEAD
 .left-48{
   left: 12rem;
 }
@@ -564,18 +565,30 @@ video {
   right: 0px;
 }
 
+=======
+.right-0{
+  right: 0px;
+}
+
+>>>>>>> f91748786a02adcfd8ec79a9a3ebf71875e024bb
 .right-44{
   right: 11rem;
 }
 
+<<<<<<< HEAD
 .right-\[45\%\]{
   right: 45%;
+=======
+.right-8{
+  right: 2rem;
+>>>>>>> f91748786a02adcfd8ec79a9a3ebf71875e024bb
 }
 
 .top-0{
   top: 0px;
 }
 
+<<<<<<< HEAD
 .top-28{
   top: 7rem;
 }
@@ -594,6 +607,38 @@ video {
 
 .left-44{
   left: 11rem;
+=======
+.top-6{
+  top: 1.5rem;
+}
+
+.right-80{
+  right: 20rem;
+}
+
+.right-9{
+  right: 2.25rem;
+}
+
+.right-96{
+  right: 24rem;
+}
+
+.right-\[\]{
+  right: ;
+}
+
+.right-\[50\%\]{
+  right: 50%;
+}
+
+.right-\[5\%\]{
+  right: 5%;
+}
+
+.right-\[45\%\]{
+  right: 45%;
+>>>>>>> f91748786a02adcfd8ec79a9a3ebf71875e024bb
 }
 
 .z-10{
@@ -613,12 +658,21 @@ video {
   margin-bottom: 7rem;
 }
 
+<<<<<<< HEAD
 .mb-14{
   margin-bottom: 3.5rem;
 }
 
 .mb-16{
   margin-bottom: 4rem;
+=======
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+>>>>>>> f91748786a02adcfd8ec79a9a3ebf71875e024bb
 }
 
 .mt-16{
