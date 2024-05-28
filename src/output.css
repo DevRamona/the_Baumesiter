@@ -576,15 +576,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
-.bg-green-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -599,20 +590,12 @@ video {
   line-height: 2rem;
 }
 
-.text-\[3rem\]{
-  font-size: 3rem;
-}
-
-.text-\[1\.75rem\]{
-  font-size: 1.75rem;
-}
-
 .text-\[1\.5rem\]{
   font-size: 1.5rem;
 }
 
-.font-\[400\]{
-  font-weight: 400;
+.text-\[3rem\]{
+  font-size: 3rem;
 }
 
 .font-bold{
@@ -623,13 +606,14 @@ video {
   font-weight: 400;
 }
 
-.font-semibold{
-  font-weight: 600;
-}
-
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-ourPrimaryGreen{
+  --tw-text-opacity: 1;
+  color: rgb(0 103 46 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
