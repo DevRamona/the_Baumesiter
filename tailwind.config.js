@@ -8,6 +8,9 @@ module.exports = {
         bgPrimary: "#EFECEA"
       }
     },
+    fontFamily: {
+      body: ["Outfit"]
+    }
   },
   plugins: [],
 }
