@@ -581,10 +581,6 @@ video {
   padding-right: 2rem;
 }
 
-.font-body{
-  font-family: Outfit;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -609,11 +605,6 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-ourPrimaryGreen{
-  --tw-text-opacity: 1;
-  color: rgb(0 103 46 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
