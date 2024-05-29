@@ -548,20 +548,12 @@ video {
   top: 0px;
 }
 
-.m-4{
-  margin: 1rem;
-}
-
 .mt-16{
   margin-top: 4rem;
 }
 
 .flex{
   display: flex;
-}
-
-.flex-col{
-  flex-direction: column;
 }
 
 .items-center{
@@ -572,10 +564,6 @@ video {
   justify-content: center;
 }
 
-.justify-between{
-  justify-content: space-between;
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -584,18 +572,6 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-\[1\.5rem\]{
-  font-size: 1.5rem;
-}
-
-.text-\[3rem\]{
-  font-size: 3rem;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .font-normal{
