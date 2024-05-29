@@ -548,6 +548,11 @@ video {
   top: 0px;
 }
 
+.my-36{
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -564,18 +569,9 @@ video {
   justify-content: center;
 }
 
-.bg-green-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.font-body{
-  font-family: Outfit;
 }
 
 .text-2xl{
@@ -598,9 +594,9 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -608,11 +604,6 @@ video {
   .lg\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-4xl{
