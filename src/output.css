@@ -535,3 +535,103 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.bottom-48{
+  bottom: 12rem;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-sm{
+  height: 150vh;
+}
+
+.w-\[46vh\]{
+  width: 46vh;
+}
+
+.w-w-46{
+  width: 46vh;
+}
+
+.items-end{
+  align-items: flex-end;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.font-body{
+  font-family: Outfit;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 768px){
+  .md\:bottom-48{
+    bottom: 12rem;
+  }
+
+  .md\:right-24{
+    right: 6rem;
+  }
+
+  .md\:h-md{
+    height: 150vh;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:right-24{
+    right: 6rem;
+  }
+
+  .lg\:bottom-48{
+    bottom: 12rem;
+  }
+
+  .lg\:h-lg{
+    height: 1480px;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
