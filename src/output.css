@@ -637,6 +637,14 @@ video {
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -793,6 +801,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:grid{
     display: grid;
   }
@@ -823,6 +835,10 @@ video {
 
   .md\:grid-rows-1{
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:items-center{
+    align-items: center;
   }
 
   .md\:justify-end{
