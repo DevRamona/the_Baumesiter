@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'sm': '150vh',
-        'md': '150vh',
-        'lg': '1480px'
+        'sm-reference': '130vh',
+        'md-reference': '120vh',
+        'lg-reference': '1300px'
       },
       width: {
-        'w-46': '46vh'
+        'w-46-reference': '46vh',
+        'w-reference':'400px'
 
       },
       colors:{
