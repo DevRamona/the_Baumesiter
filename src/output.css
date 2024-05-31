@@ -597,11 +597,6 @@ video {
   background-color: rgb(239 236 234 / var(--tw-bg-opacity));
 }
 
-.px-\[34px\]{
-  padding-left: 34px;
-  padding-right: 34px;
-}
-
 .px-p-footer{
   padding-left: 2.125rem;
   padding-right: 2.125rem;
@@ -644,8 +639,8 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:block{
-    display: block;
+  .md\:flex{
+    display: flex;
   }
 
   .md\:hidden{
