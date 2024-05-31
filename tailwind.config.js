@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        navsize: "0.9375rem", 
+        navsize: "0.9375rem",
+        smallSize:"2rem",
+        sammllerSize:"0.938"
       },
       colors:{
         primaryGreen: "#00672E",
