@@ -6,11 +6,11 @@ module.exports = {
       height: {
         'sm-reference': '130vh',
         'md-reference': '120vh',
-        'lg-reference': '1300px'
+        'lg-reference': '81.25rem'
       },
       width: {
         'w-46-reference': '46vh',
-        'w-reference':'400px'
+        'w-reference':'25rem'
 
       },
       colors:{
