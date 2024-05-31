@@ -16,6 +16,9 @@ module.exports = {
       colors:{
         primaryGreen: "#00672E",
         bgPrimary: "#EFECEA"
+      }, 
+      fontSize: {
+        'custom': '2.875rem',  // Add your custom font size class here
       }
     },
     fontFamily: {
