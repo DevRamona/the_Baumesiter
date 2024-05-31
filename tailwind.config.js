@@ -6,7 +6,7 @@ module.exports = {
       fontSize: {
         navsize: "0.9375rem",
         smallSize:"2rem",
-        sammllerSize:"0.938"
+        smallerSize:"0.938"
       },
       colors:{
         primaryGreen: "#00672E",
