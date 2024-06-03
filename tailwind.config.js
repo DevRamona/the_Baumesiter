@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'sm-reference': '130vh',
+        'sm-reference': '65rem',
         'md-reference': '120vh',
         'lg-reference': '81.25rem'
       },
@@ -22,7 +22,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      body: ["Outfit"]
+      outfit: ["Outfit"]
     }
   },
   plugins: [],
