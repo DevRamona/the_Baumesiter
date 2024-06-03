@@ -649,6 +649,14 @@ video {
     display: none;
   }
 
+  .md\:h-24{
+    height: 6rem;
+  }
+
+  .md\:h-9{
+    height: 2.25rem;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
