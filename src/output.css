@@ -600,11 +600,6 @@ video {
   justify-content: space-between;
 }
 
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-PrimaryColor{
   --tw-bg-opacity: 1;
   background-color: rgb(239 236 234 / var(--tw-bg-opacity));
