@@ -10,7 +10,7 @@ module.exports = {
       },
       colors:{
         primaryGreen: "#00672E",
-        bgPrimary: "#EFECEA"
+        PrimaryColor: "#EFECEA"
       }
     },
     fontFamily: {
