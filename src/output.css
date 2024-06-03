@@ -596,6 +596,10 @@ video {
   height: 100%;
 }
 
+.h-\[90\%\]{
+  height: 90%;
+}
+
 .min-h-\[100\%\]{
   min-height: 100%;
 }
@@ -710,6 +714,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-bgPrimary{
+  --tw-text-opacity: 1;
+  color: rgb(239 236 234 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
