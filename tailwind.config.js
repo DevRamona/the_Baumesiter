@@ -18,7 +18,7 @@ module.exports = {
       body: ["Outfit"]
     },
     padding:{
-      "p-footer":"2.125rem"
+      "footer":"2.125rem"
     }
   },
   plugins: [],
