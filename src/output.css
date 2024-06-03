@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
 
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -34,11 +34,9 @@
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
 6. Use the user's configured `sans` font-variation-settings by default.
-7. Disable tap highlights on iOS
 */
 
-html,
-:host {
+html {
   line-height: 1.5;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -48,14 +46,12 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
-  -webkit-tap-highlight-color: transparent;
-  /* 7 */
 }
 
 /*
@@ -127,10 +123,8 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font-family by default.
-2. Use the user's configured `mono` font-feature-settings by default.
-3. Use the user's configured `mono` font-variation-settings by default.
-4. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -139,12 +133,8 @@ samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
   font-size: 1em;
-  /* 4 */
+  /* 2 */
 }
 
 /*
@@ -213,8 +203,6 @@ textarea {
   /* 1 */
   line-height: inherit;
   /* 1 */
-  letter-spacing: inherit;
-  /* 1 */
   color: inherit;
   /* 1 */
   margin: 0;
@@ -238,9 +226,9 @@ select {
 */
 
 button,
-input:where([type='button']),
-input:where([type='reset']),
-input:where([type='submit']) {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -496,10 +484,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
 }
 
 ::backdrop{
@@ -550,10 +534,6 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
 }
 
 .visible{
@@ -649,6 +629,10 @@ video {
   height: 50rem;
 }
 
+.max-h-cg-md-herodiv6{
+  max-height: 42.445rem;
+}
+
 .max-h-cg-s-herodiv2{
   max-height: 22.532rem;
 }
@@ -667,10 +651,6 @@ video {
 
 .min-h-cg-s-herodiv4{
   min-height: 16rem;
-}
-
-.min-h-cg-s-herodiv6{
-  min-height: 20.03rem;
 }
 
 .w-full{
@@ -779,6 +759,107 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:-bottom-9{
+    bottom: -2.25rem;
+  }
+
+  .md\:bottom-40{
+    bottom: 10rem;
+  }
+
+  .md\:bottom-64{
+    bottom: 16rem;
+  }
+
+  .md\:left-6{
+    left: 1.5rem;
+  }
+
+  .md\:right-6{
+    right: 1.5rem;
+  }
+
+  .md\:right-8{
+    right: 2rem;
+  }
+
+  .md\:right-\[6\.8rem\]{
+    right: 6.8rem;
+  }
+
+  .md\:right-\[8rem\]{
+    right: 8rem;
+  }
+
+  .md\:top-\[19rem\]{
+    top: 19rem;
+  }
+
+  .md\:top-\[35rem\]{
+    top: 35rem;
+  }
+
+  .md\:right-\[9rem\]{
+    right: 9rem;
+  }
+
+  .md\:right-\[10rem\]{
+    right: 10rem;
+  }
+
+  .md\:max-h-cg-md-herodiv1{
+    max-height: 20.608rem;
+  }
+
+  .md\:max-h-cg-md-herodiv2{
+    max-height: 47.747rem;
+  }
+
+  .md\:max-h-cg-md-herodiv3{
+    max-height: 22.849rem;
+  }
+
+  .md\:max-h-cg-md-herodiv4{
+    max-height: 33.111rem;
+  }
+
+  .md\:max-h-cg-md-herodiv5{
+    max-height: 29.518rem;
+  }
+
+  .md\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .md\:max-w-cg-md-herodiv1{
+    max-width: 12.9rem;
+  }
+
+  .md\:max-w-cg-md-herodiv2{
+    max-width: 39.684rem;
+  }
+
+  .md\:max-w-cg-md-herodiv3{
+    max-width: 39.439rem;
+  }
+
+  .md\:max-w-cg-md-herodiv4{
+    max-width: 35.363rem;
+  }
+
+  .md\:max-w-cg-md-herodiv5{
+    max-width: 28.643rem;
+  }
+
+  .md\:max-w-cg-md-herodiv6{
+    max-width: 22.193rem;
+  }
+
+  .md\:bg-slate-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  }
+
   .md\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -795,6 +876,11 @@ video {
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 

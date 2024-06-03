@@ -34,7 +34,13 @@ module.exports = {
       "cg-l-herodiv5":"32.75rem",
       "cg-s-herodiv5":"13.517rem",
       "cg-s-herodiv6":"10.473rem",
-      "cg-l-herodiv6":"25.375rem"
+      "cg-l-herodiv6":"25.375rem",
+      "cg-md-herodiv5":"28.643rem",
+      "cg-md-herodiv6":"22.193rem",
+      "cg-md-herodiv4":"35.363rem",
+      "cg-md-herodiv3":"39.439rem",
+      "cg-md-herodiv2":"39.684rem",
+      "cg-md-herodiv1":"12.9rem"
     },
     maxHeight:{
       "cg-l-herodiv1":"23.563rem",
@@ -45,12 +51,18 @@ module.exports = {
       "cg-l-herodiv5":"33.75rem",
       "cg-s-herodiv5":"13.929rem",
       "cg-l-herodiv6":"48.531rem",
+      "cg-s-herodiv6":"20.03rem",
+      "cg-md-herodiv5":"29.518rem",
+      "cg-md-herodiv6":"42.445rem",
+      "cg-md-herodiv4":"33.111rem",
+      "cg-md-herodiv3":"22.849rem",
+      "cg-md-herodiv2":"47.747rem",
+      "cg-md-herodiv1":"20.608rem"
     },
     minHeight:{
       "cg-s-herodiv1":"9.725rem",
       "cg-s-herodiv3":"10.783rem",
       "cg-s-herodiv4":"16rem",
-      "cg-s-herodiv6":"20.03rem"
     }
   },
   plugins: [],
