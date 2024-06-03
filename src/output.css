@@ -584,9 +584,9 @@ video {
   justify-content: space-between;
 }
 
-.bg-primaryGreen{
+.bg-PrimaryColor{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 103 46 / var(--tw-bg-opacity));
+  background-color: rgb(239 236 234 / var(--tw-bg-opacity));
 }
 
 .p-4{
@@ -631,6 +631,10 @@ video {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-9{
+    height: 2.25rem;
   }
 
   .md\:text-2xl{
