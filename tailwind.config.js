@@ -3,14 +3,19 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors:{
+      fontSize: {
+        navSize: "0.9375rem",
+        smallSize: "2rem",
+        smallerSize: "0.938",
+      },
+      colors: {
         primaryGreen: "#00672E",
-        bgPrimary: "#EFECEA"
-      }
+        PrimaryColor: "#EFECEA",
+      },
     },
     fontFamily: {
-      body: ["Outfit"]
-    }
+      body: ["Outfit"],
+    },
   },
   plugins: [],
-}
+};
