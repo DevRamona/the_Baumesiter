@@ -1,36 +1,25 @@
 <!doctype html>
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Baumeister</title>
     <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <script>
-    const loadComponents = (id, url) => {
-      fetch(url)
-    <link rel="stylesheet" href="./src/output.css" />
-  </head>
-  <script>
-    const loadComponents = (id, url) => {
-      fetch(url)
-        .then((response) => response.text())
-        .then((html) => {
-          document.getElementById(id).innerHTML = html;
-          document.getElementById(id).innerHTML = html;
-        });
-    };
-    };
-
-    window.onload = () => {
-      loadComponents("navbar", "src/sections/greenNav.html");
-    };
-  </script>
   <body>
+    <script>
+      const loadComponents = (id, url) => {
+        fetch(url)
+          .then((response) => response.text())
+          .then((html) => {
+            document.getElementById(id).innerHTML = html;
+          });
+      };
+
+      window.onload = () => {
+        loadComponents("navbar", "src/sections/greenNav.html");
+      };
+    </script>
     <div id="navbar"></div>
     <div id="hero"></div>
     <div class="bg-bgPrimary" id="about"></div>
@@ -41,4 +30,3 @@
     <div id="footer"></div>
   </body>
 </html>
-
