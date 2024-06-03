@@ -556,6 +556,10 @@ video {
   grid-column-start: 2;
 }
 
+.col-start-3{
+  grid-column-start: 3;
+}
+
 .row-span-2{
   grid-row: span 2 / span 2;
 }
@@ -570,6 +574,10 @@ video {
 
 .row-start-4{
   grid-row-start: 4;
+}
+
+.mb-24{
+  margin-bottom: 6rem;
 }
 
 .flex{
@@ -588,8 +596,52 @@ video {
   height: 6rem;
 }
 
-.h-5{
-  height: 1.25rem;
+.w-3\/4{
+  width: 75%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
+}
+
+.w-4\/6{
+  width: 66.666667%;
+}
+
+.w-3\/6{
+  width: 50%;
+}
+
+.w-6{
+  width: 1.5rem;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
+.w-3{
+  width: 0.75rem;
+}
+
+.w-3\.5{
+  width: 0.875rem;
+}
+
+.w-7{
+  width: 1.75rem;
+}
+
+.w-7\/12{
+  width: 58.333333%;
+}
+
+.w-8\/12{
+  width: 66.666667%;
+}
+
+.w-\[60\%\]{
+  width: 60%;
 }
 
 .grid-cols-2{
@@ -616,8 +668,8 @@ video {
   justify-content: center;
 }
 
-.gap-2{
-  gap: 0.5rem;
+.self-end{
+  align-self: flex-end;
 }
 
 .border{
@@ -645,6 +697,14 @@ video {
 
 .pt-36{
   padding-top: 9rem;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-end{
+  text-align: end;
 }
 
 .font-body{
