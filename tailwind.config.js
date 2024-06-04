@@ -3,17 +3,17 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors:{
+      colors: {
         primaryGreen: "#00672E",
-        primaryColor: "#EFECEA"
-      }, 
+        primaryColor: "#EFECEA",
+      },
       fontSize: {
-        'custom': '2.875rem',
-      }
+        custom: "2.875rem",
+      },
     },
     fontFamily: {
-      outfit: ["Outfit"]
-    }
+      outfit: ["Outfit"],
+    },
   },
   plugins: ["prettier-plugin-tailwindcss"],
-}
+};
