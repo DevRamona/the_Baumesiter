@@ -3,18 +3,16 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontSize: {
-        navSize: "0.9375rem",
-        smallSize: "2rem",
-        smallerSize: "0.938",
-      },
       colors: {
         primaryGreen: "#00672E",
-        PrimaryColor: "#EFECEA",
+        bgPrimary: "#EFECEA",
+      },
+      fontSize: {
+        custom: "2.875rem",
       },
     },
     fontFamily: {
-      body: ["Outfit"],
+      outfit: ["Outfit"],
     },
   },
   plugins: [],
