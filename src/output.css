@@ -416,6 +416,7 @@ embed,
 object {
   display: block;
   /* 1 */
+  vertical-align: middle;
   /* 2 */
 }
 
@@ -583,6 +584,18 @@ video {
   height: 6rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
 }
@@ -633,8 +646,30 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-48{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pr-10{
+  padding-right: 2.5rem;
 }
 
 .pt-36{
@@ -649,13 +684,18 @@ video {
   text-align: right;
 }
 
-.font-outfit{
-  font-family: Outfit;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .font-normal{
@@ -715,8 +755,25 @@ video {
     padding-left: 9rem;
   }
 
+  .md\:pr-0{
+    padding-right: 0px;
+  }
+
+  .md\:pr-32{
+    padding-right: 8rem;
+  }
+
   .md\:pr-8{
     padding-right: 2rem;
+  }
+
+  .md\:text-right{
+    text-align: right;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-3xl{
@@ -731,6 +788,68 @@ video {
 }
 
 @media (min-width: 1024px){
+  .lg\:-bottom-28{
+    bottom: -7rem;
+  }
+
+  .lg\:top-0{
+    top: 0px;
+  }
+
+  .lg\:order-1{
+    order: 1;
+  }
+
+  .lg\:order-2{
+    order: 2;
+  }
+
+  .lg\:order-3{
+    order: 3;
+  }
+
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:flex-1{
+    flex: 1 1 0%;
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
+  }
+
+  .lg\:items-start{
+    align-items: flex-start;
+  }
+
+  .lg\:justify-around{
+    justify-content: space-around;
+  }
+
+  .lg\:justify-evenly{
+    justify-content: space-evenly;
+  }
+
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .lg\:pr-40{
+    padding-right: 10rem;
+  }
+
+  .lg\:text-left{
+    text-align: left;
+  }
+
   .lg\:text-custom{
     font-size: 2.875rem;
   }
