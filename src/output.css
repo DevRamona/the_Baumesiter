@@ -568,6 +568,10 @@ video {
   top: 0.5rem;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .flex{
   display: flex;
 }
@@ -634,12 +638,12 @@ video {
   padding-bottom: 4rem;
 }
 
-.pt-36{
-  padding-top: 9rem;
-}
-
 .pt-2{
   padding-top: 0.5rem;
+}
+
+.pt-36{
+  padding-top: 9rem;
 }
 
 .font-body{
@@ -697,10 +701,6 @@ video {
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:h-9{
-    height: 2.25rem;
   }
 
   .md\:px-16{
