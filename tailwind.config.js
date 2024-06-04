@@ -17,9 +17,6 @@ module.exports = {
     fontFamily: {
       body: ["Outfit"]
     },
-    padding:{
-      "footer":"2.125rem"
-    }
   },
   plugins: [],
 }
