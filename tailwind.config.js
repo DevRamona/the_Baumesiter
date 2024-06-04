@@ -11,7 +11,9 @@ module.exports = {
         'custom': '2.875rem',
       }
     },
-
+    fontFamily: {
+      outfit: ["Outfit"]
+    }
   },
   plugins: [],
 }

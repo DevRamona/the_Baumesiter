@@ -641,6 +641,10 @@ video {
   background-position: center;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -654,6 +658,11 @@ video {
 .py-48{
   padding-top: 12rem;
   padding-bottom: 12rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-10{
@@ -682,6 +691,10 @@ video {
 
 .text-right{
   text-align: right;
+}
+
+.font-outfit{
+  font-family: Outfit;
 }
 
 .text-2xl{
@@ -826,6 +839,10 @@ video {
 
   .lg\:items-start{
     align-items: flex-start;
+  }
+
+  .lg\:justify-between{
+    justify-content: space-between;
   }
 
   .lg\:justify-around{
