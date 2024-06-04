@@ -621,6 +621,15 @@ video {
   padding: 2.125rem;
 }
 
+.px-footer{
+  padding-left: 2.125rem;
+  padding-right: 2.125rem;
+}
+
+.pr-footer{
+  padding-right: 2.125rem;
+}
+
 .font-body{
   font-family: Outfit;
 }
@@ -645,6 +654,12 @@ video {
 
 .underline{
   text-decoration-line: underline;
+}
+
+@media (min-width: 640px){
+  .sm\:pr-footer{
+    padding-right: 2.125rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -725,6 +740,26 @@ video {
 
   .lg\:pr-footer{
     padding-right: 2.125rem;
+  }
+
+  .lg\:pr-\[\]{
+    padding-right: ;
+  }
+
+  .lg\:pr-\[3\]{
+    padding-right: 3;
+  }
+
+  .lg\:pr-\[3rem\]{
+    padding-right: 3rem;
+  }
+
+  .lg\:pr-\[rem\]{
+    padding-right: rem;
+  }
+
+  .lg\:pr-\[5rem\]{
+    padding-right: 5rem;
   }
 
   .lg\:text-left{
