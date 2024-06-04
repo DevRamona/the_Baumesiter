@@ -3,13 +3,6 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      height: {
-        'heightImage' : "26.13rem"
-      },
-      width: {
-        'widthImage': "45.09rem"
-
-      },
       lineHeight: {
         'extra-loose': '3.5rem',
       },

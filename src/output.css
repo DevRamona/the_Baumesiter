@@ -584,6 +584,10 @@ video {
   height: 6rem;
 }
 
+.w-96{
+  width: 24rem;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -696,14 +700,6 @@ video {
 
   .md\:order-4{
     order: 4;
-  }
-
-  .md\:h-heightImage{
-    height: 26.13rem;
-  }
-
-  .md\:w-widthImage{
-    width: 45.09rem;
   }
 
   .md\:flex-row{
