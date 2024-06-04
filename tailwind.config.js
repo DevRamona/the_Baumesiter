@@ -4,19 +4,19 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: {
-        'extra-loose': '3.5rem',
+        "extra-loose": "3.5rem",
       },
-      colors:{
+      colors: {
         primaryGreen: "#00672E",
-        bgPrimary: "#EFECEA"
-      }, 
+        bgPrimary: "#EFECEA",
+      },
       fontSize: {
-        'custom': '2.875rem',  // Add your custom font size class here
-      }
+        custom: "2.875rem", // Add your custom font size class here
+      },
     },
     fontFamily: {
-      body: ["Outfit"]
-    }
+      body: ["Outfit"],
+    },
   },
   plugins: [],
-}
+};
