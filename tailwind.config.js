@@ -3,20 +3,15 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-      lineHeight: {
-        'extra-loose': '3.5rem',
-      },
       colors:{
         primaryGreen: "#00672E",
         bgPrimary: "#EFECEA"
       }, 
       fontSize: {
-        'custom': '2.875rem',  // Add your custom font size class here
+        'custom': '2.875rem',
       }
     },
-    fontFamily: {
-      body: ["Outfit"]
-    },
+
   },
   plugins: [],
 }
