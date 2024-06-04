@@ -18,5 +18,5 @@ module.exports = {
       body: ["Outfit"]
     }
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 }
