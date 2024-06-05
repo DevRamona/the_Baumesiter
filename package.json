@@ -3,6 +3,7 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
     "prettier":"npx prettier --write ."
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
   },
   "devDependencies": {
     "prettier": "^3.3.0",
