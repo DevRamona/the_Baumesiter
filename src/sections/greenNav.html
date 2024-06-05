@@ -1,5 +1,5 @@
 <div
-  class="bg-PrimaryColor text-primaryGreen flex justify-between p-4 fixed w-full top-0 z-10"
+  class="bg-PrimaryColor text-primaryGreen flex justify-between p-8 sticky w-full top-0 z-10 bg-bgPrimary"
 >
   <div class="flex flex-col text-smallerSize md:text-2xl">
     <h1>DE</h1>
@@ -17,7 +17,7 @@
       Baumeister
     </p>
   </div>
-  <div class="hidden lg:block">
+  <div class="hidden md:block">
     <div class="flex flex-col font-semibold text-2xl">
       <a href="#about">About</a>
       <a href="#services">Services</a>
@@ -25,7 +25,13 @@
       <a href="#contact">Contact</a>
     </div>
   </div>
-  <div class="flex flex-col justify-center lg:hidden" id="menuButton">
-    <img src="/src/sections/img/green-menu.webp" alt="menu-image" class="h-6" />
+  <div class="md:hidden lg:hidden" id="cancelButton">
+    <div class="flex flex-col justify-center items-center lg:hidden pt-4">
+      <img
+        src="/src/sections/img/green-menu.webp"
+        alt="menu-image"
+        class="h-6"
+      />
+    </div>
   </div>
 </div>
