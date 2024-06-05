@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Baumeister</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <script>
+    const loadComponents = (id, url) => {
+      fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById(id).innerHTML = html;
+        });
+    };
+
+    window.onload = () => {
+      loadComponents("navbar", "src/sections/navbar.html");
+      loadComponents("imprint", "src/sections/imp.html");
+    };
+  </script>
+  <body>
+    <div id="navbar"></div>
+    <div id="imprint"></div>
+  </body>
+</html>
