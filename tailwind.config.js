@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ["Outfit"],
+      outfit: ["Outfit"],
     },
     height: {
       0: "50rem",
