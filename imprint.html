@@ -1,4 +1,27 @@
-<div
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <script>
+    const loadComponents = (id, url) => {
+      fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById(id).innerHTML = html;
+        });
+    };
+
+    window.onload = () => {
+      loadComponents("greenNav", "src/sections/greenNav.html");
+      loadComponents("footer", "src/sections/footer.html")};
+      </script>
+</head>
+<body>
+  <div id="greenNav"></div>
+  <div
   class="grid text-2xl ml-8 gap-20 font-body text-primaryGreen md:grid-cols-2 md:gap-32 lg:ml-28"
 >
   <div class="flex flex-col gap-10 w-80 md:w-[42.81rem] md:gap-20 lg:gap-24">
@@ -36,7 +59,7 @@
     class="flex flex-col md:pr-8 md:ml-20 md:justify-end md:items-end md:text-end md:gap-6 md:text-xl lg:pr-20 lg:gap-9 lg:text-2xl"
   >
     <h2 class="font-bold">DISCLAIMER</h2>
-    <p class="w-[20.31rem] md:w-[22.19rem]">
+    <p class="w-[22.19rem]">
       Despite all due care, no liability can be accepted for the accuracy,
       completeness and up to-dateness of the information provided. The same
       applies to third-party websites to which www.agentur-baumeister.com refers
@@ -45,3 +68,6 @@
     </p>
   </div>
 </div>
+<div id="footer"></div>
+</body>
+</html>
