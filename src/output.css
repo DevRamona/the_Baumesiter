@@ -645,6 +645,10 @@ video {
   padding: 1rem;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -669,6 +673,14 @@ video {
 
 .pt-36{
   padding-top: 9rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
 }
 
 .text-right{
