@@ -724,6 +724,18 @@ video {
     display: none;
   }
 
+  .md\:h-10{
+    height: 2.5rem;
+  }
+
+  .md\:h-12{
+    height: 3rem;
+  }
+
+  .md\:h-11{
+    height: 2.75rem;
+  }
+
   .md\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -758,6 +770,10 @@ video {
 }
 
 @media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
+
   .lg\:hidden{
     display: none;
   }
