@@ -1344,10 +1344,6 @@ video {
     padding-left: 9rem;
   }
 
-  .md\:pl-40{
-    padding-left: 10rem;
-  }
-
   .md\:pr-0{
     padding-right: 0px;
   }
@@ -1515,10 +1511,6 @@ video {
 
   .lg\:z-30{
     z-index: 30;
-  }
-
-  .lg\:z-50{
-    z-index: 50;
   }
 
   .lg\:z-40{
