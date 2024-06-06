@@ -628,6 +628,30 @@ video {
   left: 4rem;
 }
 
+.left-4{
+  left: 1rem;
+}
+
+.left-5{
+  left: 1.25rem;
+}
+
+.left-8{
+  left: 2rem;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.left-7{
+  left: 1.75rem;
+}
+
+.left-6{
+  left: 1.5rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1037,6 +1061,10 @@ video {
 
   .md\:top-\[35rem\]{
     top: 35rem;
+  }
+
+  .md\:left-16{
+    left: 4rem;
   }
 
   .md\:order-1{
