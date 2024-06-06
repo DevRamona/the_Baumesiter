@@ -1376,6 +1376,14 @@ video {
     width: fit-content;
   }
 
+  .lg\:w-5{
+    width: 1.25rem;
+  }
+
+  .lg\:w-56{
+    width: 14rem;
+  }
+
   .lg\:min-w-\[71\.973rem\]{
     min-width: 71.973rem;
   }
