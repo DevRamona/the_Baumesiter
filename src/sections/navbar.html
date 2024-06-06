@@ -1,32 +1,33 @@
-
-<div class="flex justify-between bg-PrimaryColor p-7 sticky w-full top-0 z-10">
-  <div class="flex flex-col text-smallerSize md:text-2xl">
+<div class="bg-bgPrimary sticky top-0 z-10 flex w-full justify-between p-7">
+  <div class="text-smallerSize flex flex-col md:text-2xl">
     <h1>DE</h1>
     <h1>EN</h1>
   </div>
-  <div class="text-3xl font-light relative lg:text-5xl">
+  <div class="relative text-3xl font-light lg:text-5xl">
     <img
       src="/src/sections/img/Vector-5.webp"
       alt="menu-image"
-      class="md:hidden w-48 h-14"
+      class="h-14 w-48 md:hidden"
     />
     <p
-      class="absolute left-4 top-2 font-semibold text-smallSize md:text-5xl md:relative lg:text-5xl"
+      class="text-smallSize absolute left-4 top-2 font-semibold md:relative md:text-5xl lg:text-5xl"
     >
       Baumeister
     </p>
   </div>
-  <div class="hidden md:block">
+  <div class="hidden lg:block">
     <div class="flex flex-col text-2xl">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#References">References</a>
-      <a href="#contact">Contact</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">References</a>
+      <a href="#">Contact</a>
     </div>
   </div>
-  <div class="md:hidden lg:hidden" id="cancelButton">
-    <div class="flex flex-col justify-center items-center lg:hidden pt-4">
-      <img src="/src/sections/img/menu.webp" alt="menu-image" class="h-6" />
+  <div class="lg:hidden" id="cancelButton">
+    <div
+      class="flex w-12 flex-col items-center justify-center pl-2 md:w-48 lg:hidden"
+    >
+      <img src="/src/sections/img/cancel.webp" alt="menu-image" class="h-6" />
     </div>
   </div>
 </div>
