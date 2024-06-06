@@ -580,12 +580,12 @@ video {
   bottom: 2.25rem;
 }
 
-.left-2{
-  left: 0.5rem;
+.left-10{
+  left: 2.5rem;
 }
 
-.left-4{
-  left: 1rem;
+.left-2{
+  left: 0.5rem;
 }
 
 .right-0{
@@ -616,6 +616,42 @@ video {
   top: 15.5rem;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
+.left-12{
+  left: 3rem;
+}
+
+.left-16{
+  left: 4rem;
+}
+
+.left-4{
+  left: 1rem;
+}
+
+.left-5{
+  left: 1.25rem;
+}
+
+.left-8{
+  left: 2rem;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.left-7{
+  left: 1.75rem;
+}
+
+.left-6{
+  left: 1.5rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -632,8 +668,12 @@ video {
   z-index: 50;
 }
 
-.z-\[100\]{
-  z-index: 100;
+.-z-50{
+  z-index: -50;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .order-1{
@@ -658,18 +698,6 @@ video {
 
 .mt-16{
   margin-top: 4rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
 }
 
 .block{
@@ -734,6 +762,14 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-20{
+  width: 5rem;
 }
 
 .min-w-full{
@@ -811,11 +847,6 @@ video {
   background-color: rgb(239 236 234 / var(--tw-bg-opacity));
 }
 
-.bg-red-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'\.\.\/\.\.\/img\/Rectangle-3\.webp\'\)\]{
   background-image: url('../../img/Rectangle-3.webp');
 }
@@ -881,10 +912,6 @@ video {
   padding-bottom: 4rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -909,16 +936,16 @@ video {
   padding-top: 7rem;
 }
 
+.pt-36{
+  padding-top: 9rem;
+}
+
 .pt-4{
   padding-top: 1rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pt-36{
-  padding-top: 9rem;
+.pr-2{
+  padding-right: 0.5rem;
 }
 
 .text-center{
@@ -967,6 +994,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .text-black{
@@ -1032,6 +1063,10 @@ video {
     top: 35rem;
   }
 
+  .md\:left-16{
+    left: 4rem;
+  }
+
   .md\:order-1{
     order: 1;
   }
@@ -1046,14 +1081,6 @@ video {
 
   .md\:order-4{
     order: 4;
-  }
-
-  .md\:mb-20{
-    margin-bottom: 5rem;
-  }
-
-  .md\:mb-8{
-    margin-bottom: 2rem;
   }
 
   .md\:hidden{
@@ -1139,10 +1166,6 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:pb-8{
-    padding-bottom: 2rem;
-  }
-
   .md\:pl-10{
     padding-left: 2.5rem;
   }
@@ -1169,10 +1192,6 @@ video {
 
   .md\:pr-8{
     padding-right: 2rem;
-  }
-
-  .md\:pt-20{
-    padding-top: 5rem;
   }
 
   .md\:pt-40{
@@ -1301,6 +1320,10 @@ video {
 
   .lg\:z-50{
     z-index: 50;
+  }
+
+  .lg\:z-40{
+    z-index: 40;
   }
 
   .lg\:order-1{
