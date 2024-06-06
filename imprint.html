@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/output.css" />
+  <script>
+    const loadComponents = (id, url) => {
+      fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById(id).innerHTML = html;
+        });
+    };
+
+    window.onload = () => {
+      loadComponents("greenNav", "src/sections/greenNav.html");
+      loadComponents("imprintpage", "src/sections/imprintpage.html");
+      loadComponents("greenfooter", "src/sections/greenfooter.html");
+    
+      
+      };
+      
+      </script>
+</head>
+<body class="bg-primaryColor">
+  <div id="imprintpage"></div>
+    <div id="greenfooter"></div>
+  
+
+
+</body>
+</html>
