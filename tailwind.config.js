@@ -3,21 +3,8 @@ module.exports = {
   content: ["./*.{html,js}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
-
-
-      colors:{
-        primaryGreen: "#00672E",
-        bgPrimary: "#EFECEA",
-      },
-
-      fontSize: {
-        navSize: "0.9375rem",
-        smallSize: "2rem",
-        smallerSize: "0.938",
-
       lineHeight: {
         "extra-loose": "3.5rem",
-
       },
       colors: {
         primaryGreen: "#00672E",
@@ -78,5 +65,4 @@ module.exports = {
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
-}
-  } 
+};
