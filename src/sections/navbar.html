@@ -1,32 +1,52 @@
+<header class="py-8 font-outfit lg:pb-40">
+  <nav class="fixed left-5 right-5 top-4 z-50 md:left-10 md:right-10">
+    <div class="flex items-center justify-between">
+      <div class="">
+        <a href="#">
+          <p class="text-xl md:text-2xl">DE</p>
+        </a>
+        <a href="#">
+          <p class="text-xl md:text-2xl">EN</p>
+        </a>
+      </div>
+      <h1
+        class="relative flex items-center text-4xl font-semibold md:text-5xl md:font-semibold"
+      >
+        <a href="/index.html">Baumeister</a>
+      </h1>
+      <img
+        src="/img/Vector-3.webp"
+        alt="white-shape"
+        class="w-52 absolute left-16 -z-10 block md:hidden"
+      />
+      <ul
+        class="hidden -space-y-1 lg:flex lg:flex-col lg:items-end lg:text-2xl"
+      >
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reference">References</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
 
-<div class="flex justify-between py-7 pl-7 pr-2 fixed w-full top-0 z-50">
-  <div class="flex flex-col text-smallerSize md:text-2xl font-semibold">
-    <h1>DE</h1>
-    <h1>EN</h1>
-  </div>
-  <div class="text-3xl font-light relative lg:text-5xl">
-    <img
-      src="../../img/Vector-3.webp"
-      alt="menu-image"
-      class="md:hidden w-48 h-14"
-    />
-    <p
-      class="absolute md:left-16 left-6 top-2 font-semibold text-smallSize md:text-5xl md:relative lg:text-5xl"
-    >
-      Baumeister
-    </p>
-  </div>
-  <div class="hidden lg:block">
-    <div class="flex flex-col font-semibold text-2xl">
-      <a href="#about">About</a>
-      <a href="#service">Services</a>
-      <a href="#reference">References</a>
-      <a href="#contact">Contact</a>
+      <div class="flex w-12 items-center md:w-20 lg:hidden" id="menu">
+        <img src="/img/menu.webp" alt="Hamburger-icon" class="open-icon" />
+        <img
+          src="/img/cancel.webp"
+          alt="Hamburger-icon-remove"
+          class="close-icon hidden"
+        />
+      </div>
     </div>
-  </div>
-  <div class="lg:hidden" id="cancelButton">
-    <div class="flex flex-col justify-center items-center lg:hidden pt-4 w-12  md:w-48">
-      <img src="../../img/menu.webp" alt="menu-image" class="h-6" />
+
+    <div class="hidden" id="links">
+      <ul
+        class="hamburger-menu text-customGreen z-40 flex flex-col items-center justify-center gap-7 text-4xl font-semibold md:gap-4 md:pt-16 md:text-6xl lg:hidden"
+      >
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reference">References</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
     </div>
-  </div>
-</div>
+  </nav>
+</header>
