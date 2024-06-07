@@ -19,6 +19,8 @@
           const heroPadding = document.querySelector(".hero-padding");
           const navigation = document.getElementById("navigation");
           const heroText = document.getElementById("hero-text");
+          const heroSection = document.getElementById("hero-section");
+          const pinkVector = document.getElementById("pink-vector")
 
           menuIcon.addEventListener("click", () => {
             menuIcon.classList.add("hidden");
@@ -26,12 +28,20 @@
             links.classList.remove("hidden");
             links.classList.add("text-primaryGreen");
             heroText.classList.add("hidden");
+            links.classList.add("h-[100vh]")
+            links.classList.add("mb-[200px]")
+            heroSection.classList.add("relative");
+            heroSection.classList.add("md:mt-96")
+            heroSection.classList.add("-mt-6");
+            pinkVector.classList.add("mt-[8rem]") 
           });
           close.addEventListener("click", () => {
             menuIcon.classList.remove("hidden");
             close.classList.add("hidden");
             links.classList.add("hidden");
             heroText.classList.remove("hidden");
+            heroSection.classList.remove("relative");
+            pinkVector.classList.remove("mt-[8rem]") 
           });
         });
     };
