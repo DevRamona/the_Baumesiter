@@ -596,16 +596,16 @@ video {
   left: 1.25rem;
 }
 
-.left-6{
-  left: 1.5rem;
-}
-
 .left-\[3\%\]{
   left: 3%;
 }
 
-.right-0{
-  right: 0px;
+.left-\[5rem\]{
+  left: 5rem;
+}
+
+.left-\[5rem\]{
+  left: 5rem;
 }
 
 .right-5{
@@ -620,16 +620,24 @@ video {
   right: 9%;
 }
 
+.right-\[5\%\]{
+  right: 5%;
+}
+
+.right-\[9\%\]{
+  right: 9%;
+}
+
 .top-0{
   top: 0px;
 }
 
-.top-2{
-  top: 0.5rem;
-}
-
 .top-4{
   top: 1rem;
+}
+
+.top-7{
+  top: 1.75rem;
 }
 
 .top-\[69\%\]{
@@ -696,8 +704,8 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-12{
-  margin-left: 3rem;
+.ml-5{
+  margin-left: 1.25rem;
 }
 
 .ml-6{
@@ -728,10 +736,6 @@ video {
   display: none;
 }
 
-.h-\[5\.44rem\]{
-  height: 5.44rem;
-}
-
 .h-\[64\.208rem\]{
   height: 64.208rem;
 }
@@ -744,8 +748,8 @@ video {
   width: 3rem;
 }
 
-.w-48{
-  width: 12rem;
+.w-28{
+  width: 7rem;
 }
 
 .w-52{
@@ -897,12 +901,20 @@ video {
   background-image: url('../../img/Rectangle-3.webp');
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/img\/Vector-3\.webp\'\)\]{
+  background-image: url('../../img/Vector-3.webp');
+}
+
 .bg-cover{
   background-size: cover;
 }
 
 .bg-center{
   background-position: center;
+}
+
+.p-2{
+  padding: 0.5rem;
 }
 
 .px-10{
@@ -923,11 +935,6 @@ video {
 .px-9{
   padding-left: 2.25rem;
   padding-right: 2.25rem;
-}
-
-.py-48{
-  padding-top: 12rem;
-  padding-bottom: 12rem;
 }
 
 .py-6{
@@ -967,6 +974,10 @@ video {
 
 .pb-6{
   padding-bottom: 1.5rem;
+}
+
+.pb-64{
+  padding-bottom: 16rem;
 }
 
 .pl-7{
@@ -1121,10 +1132,6 @@ video {
     left: 2.5rem;
   }
 
-  .md\:left-32{
-    left: 8rem;
-  }
-
   .md\:right-10{
     right: 2.5rem;
   }
@@ -1151,6 +1158,10 @@ video {
 
   .md\:mb-3{
     margin-bottom: 0.75rem;
+  }
+
+  .md\:ml-14{
+    margin-left: 3.5rem;
   }
 
   .md\:ml-20{
@@ -1195,14 +1206,6 @@ video {
 
   .md\:w-48{
     width: 12rem;
-  }
-
-  .md\:w-96{
-    width: 24rem;
-  }
-
-  .md\:w-\[12\.25rem\]{
-    width: 12.25rem;
   }
 
   .md\:w-\[18rem\]{
@@ -1281,32 +1284,8 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:px-24{
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
-  .md\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .md\:px-32{
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .md\:px-36{
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-
   .md\:pl-10{
     padding-left: 2.5rem;
-  }
-
-  .md\:pl-14{
-    padding-left: 3.5rem;
   }
 
   .md\:pl-2{
@@ -1398,10 +1377,6 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:relative{
-    position: relative;
-  }
-
   .lg\:-bottom-28{
     bottom: -7rem;
   }
@@ -1527,16 +1502,12 @@ video {
     display: none;
   }
 
-  .lg\:h-\[8\.38rem\]{
-    height: 8.38rem;
-  }
-
   .lg\:min-h-\[48\.75rem\]{
     min-height: 48.75rem;
   }
 
-  .lg\:w-\[13rem\]{
-    width: 13rem;
+  .lg\:w-56{
+    width: 14rem;
   }
 
   .lg\:w-\[15\.59\%\]{
@@ -1647,6 +1618,11 @@ video {
     padding-right: 5rem;
   }
 
+  .lg\:py-60{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
+
   .lg\:pb-16{
     padding-bottom: 4rem;
   }
@@ -1667,12 +1643,8 @@ video {
     padding-right: 5rem;
   }
 
-  .lg\:pr-24{
-    padding-right: 6rem;
-  }
-
-  .lg\:pr-40{
-    padding-right: 10rem;
+  .lg\:pr-44{
+    padding-right: 11rem;
   }
 
   .lg\:pr-6{
