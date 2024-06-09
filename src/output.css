@@ -1279,9 +1279,8 @@ video {
     padding-right: 5rem;
   }
 
-  .md\:px-36{
-    padding-left: 9rem;
-    padding-right: 9rem;
+  .md\:pl-28{
+    padding-left: 7rem;
   }
 
   .md\:pl-64{
@@ -1298,6 +1297,10 @@ video {
 
   .md\:pr-32{
     padding-right: 8rem;
+  }
+
+  .md\:pr-40{
+    padding-right: 10rem;
   }
 
   .md\:pr-8{
@@ -1594,6 +1597,11 @@ video {
     padding-right: 5rem;
   }
 
+  .lg\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .lg\:py-60{
     padding-top: 15rem;
     padding-bottom: 15rem;
@@ -1607,8 +1615,8 @@ video {
     padding-left: 4rem;
   }
 
-  .lg\:pl-36{
-    padding-left: 9rem;
+  .lg\:pl-40{
+    padding-left: 10rem;
   }
 
   .lg\:pr-20{
@@ -1633,14 +1641,6 @@ video {
 
   .lg\:pt-36{
     padding-top: 9rem;
-  }
-
-  .lg\:pr-12{
-    padding-right: 3rem;
-  }
-
-  .lg\:pl-20{
-    padding-left: 5rem;
   }
 
   .lg\:text-left{
@@ -1677,46 +1677,6 @@ video {
 
   .lg\:leading-extra-loose{
     line-height: 3.5rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:top-36{
-    top: 9rem;
-  }
-
-  .xl\:h-\[100\%\]{
-    height: 100%;
-  }
-
-  .xl\:h-\[90\%\]{
-    height: 90%;
-  }
-
-  .xl\:h-\[80\%\]{
-    height: 80%;
-  }
-
-  .xl\:w-\[100\%\]{
-    width: 100%;
-  }
-
-  .xl\:pl-20{
-    padding-left: 5rem;
-  }
-
-  .xl\:pr-12{
-    padding-right: 3rem;
-  }
-
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .xl\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
