@@ -728,6 +728,10 @@ video {
   display: none;
 }
 
+.h-\[5\.44rem\]{
+  height: 5.44rem;
+}
+
 .h-\[64\.208rem\]{
   height: 64.208rem;
 }
@@ -738,10 +742,6 @@ video {
 
 .w-12{
   width: 3rem;
-}
-
-.w-28{
-  width: 7rem;
 }
 
 .w-52{
@@ -786,6 +786,10 @@ video {
 
 .w-\[76\%\]{
   width: 76%;
+}
+
+.w-\[9\.12rem\]{
+  width: 9.12rem;
 }
 
 .w-auto{
@@ -950,6 +954,10 @@ video {
 
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .pb-4{
@@ -1168,8 +1176,16 @@ video {
     display: block;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-\[6\.19rem\]{
+    height: 6.19rem;
   }
 
   .md\:h-\[90\%\]{
@@ -1182,6 +1198,10 @@ video {
 
   .md\:w-48{
     width: 12rem;
+  }
+
+  .md\:w-\[12\.25rem\]{
+    width: 12.25rem;
   }
 
   .md\:w-\[18rem\]{
@@ -1208,6 +1228,10 @@ video {
     flex-direction: row;
   }
 
+  .md\:flex-col{
+    flex-direction: column;
+  }
+
   .md\:items-start{
     align-items: flex-start;
   }
@@ -1216,8 +1240,16 @@ video {
     align-items: flex-end;
   }
 
+  .md\:items-center{
+    align-items: center;
+  }
+
   .md\:justify-end{
     justify-content: flex-end;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:gap-11{
@@ -1243,9 +1275,9 @@ video {
     padding-right: 3rem;
   }
 
-  .md\:px-16{
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .md\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 
   .md\:pl-10{
@@ -1254,10 +1286,6 @@ video {
 
   .md\:pl-2{
     padding-left: 0.5rem;
-  }
-
-  .md\:pl-36{
-    padding-left: 9rem;
   }
 
   .md\:pr-0{
@@ -1282,10 +1310,6 @@ video {
 
   .md\:pt-40{
     padding-top: 10rem;
-  }
-
-  .md\:pt-96{
-    padding-top: 24rem;
   }
 
   .md\:text-right{
@@ -1466,12 +1490,16 @@ video {
     display: none;
   }
 
+  .lg\:h-\[8\.38rem\]{
+    height: 8.38rem;
+  }
+
   .lg\:min-h-\[48\.75rem\]{
     min-height: 48.75rem;
   }
 
-  .lg\:w-56{
-    width: 14rem;
+  .lg\:w-\[13rem\]{
+    width: 13rem;
   }
 
   .lg\:w-\[15\.59\%\]{
@@ -1603,12 +1631,12 @@ video {
     padding-left: 2.5rem;
   }
 
-  .lg\:pl-28{
-    padding-left: 7rem;
-  }
-
   .lg\:pr-20{
     padding-right: 5rem;
+  }
+
+  .lg\:pr-24{
+    padding-right: 6rem;
   }
 
   .lg\:pr-44{
