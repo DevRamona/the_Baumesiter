@@ -19,6 +19,8 @@
           const heroPadding = document.querySelector(".hero-padding");
           const navigation = document.getElementById("navigation");
           const heroText = document.getElementById("hero-text");
+          const heroSection = document.getElementById("hero-section");
+          const pinkVector = document.getElementById("pink-vector")
 
           menuIcon.addEventListener("click", () => {
             menuIcon.classList.add("hidden");
@@ -26,12 +28,18 @@
             links.classList.remove("hidden");
             links.classList.add("text-primaryGreen");
             heroText.classList.add("hidden");
+            links.classList.add("h-[100vh]")
+            links.classList.add("mb-[200px]")
+            heroSection.classList.add("-mt-[15.5rem]")
+            heroSection.classList.add("md:mt-[17rem]")
           });
           close.addEventListener("click", () => {
             menuIcon.classList.remove("hidden");
             close.classList.add("hidden");
             links.classList.add("hidden");
             heroText.classList.remove("hidden");
+            heroSection.classList.remove("-mt-[15.5rem]")
+            heroSection.classList.remove("md:mt-[17rem]")
           });
         });
     };
@@ -45,10 +53,13 @@
       loadComponents("reference", "src/sections/reference.html");
     };
   </script>
-  <body class="bg-primaryColor">
+  <body class="bg-primaryColor relative">
     <div id="navbar"></div>
-    <div class="md:pb-96 lg:mt-28 lg:pb-0" id="hero"></div>
+    <div class="lg:mt-20" id="hero"></div>
     <div class="bg-primaryColor" id="about"></div>
+    <div class="flex items-center justify-center pb-16 sticky top-0 pr-10 lg:pr-24 z-40">
+      <img class="w-[9.12rem] h-[5.44rem] md:w-[12.25rem] md:h-[6.19rem] lg:w-[13rem] lg:h-[8.38rem]" src="/img/vector-6.png" alt="yellow-vector" />
+    </div>
     <div id="service"></div>
     <div id="imprint"></div>
     <div id="privacy"></div>
