@@ -700,10 +700,6 @@ video {
   margin-left: 1rem;
 }
 
-.ml-5{
-  margin-left: 1.25rem;
-}
-
 .ml-6{
   margin-left: 1.5rem;
 }
@@ -1153,10 +1149,6 @@ video {
     margin-bottom: 0.75rem;
   }
 
-  .md\:ml-14{
-    margin-left: 3.5rem;
-  }
-
   .md\:ml-20{
     margin-left: 5rem;
   }
@@ -1452,10 +1444,6 @@ video {
     margin-right: auto;
   }
 
-  .lg\:ml-28{
-    margin-left: 7rem;
-  }
-
   .lg\:mt-0{
     margin-top: 0px;
   }
@@ -1635,10 +1623,6 @@ video {
 
   .lg\:pt-36{
     padding-top: 9rem;
-  }
-
-  .lg\:pr-20{
-    padding-right: 5rem;
   }
 
   .lg\:text-left{
