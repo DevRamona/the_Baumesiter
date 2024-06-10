@@ -1017,6 +1017,10 @@ video {
   padding-right: 2.5rem;
 }
 
+.pr-14{
+  padding-right: 3.5rem;
+}
+
 .pt-20{
   padding-top: 5rem;
 }
@@ -1035,6 +1039,10 @@ video {
 
 .pt-72{
   padding-top: 18rem;
+}
+
+.pr-16{
+  padding-right: 4rem;
 }
 
 .text-center{
