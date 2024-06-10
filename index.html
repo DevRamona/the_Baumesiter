@@ -1,29 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Baumeister</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<script>
-    const loadComponents = (id, url) =>  {
-        fetch(url)
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <script>
+    const loadComponents = (id, url) => {
+      fetch(url)
         .then((response) => response.text())
         .then((html) => {
-            document.getElementById(id).innerHTML = html;
+          document.getElementById(id).innerHTML = html;
+          const menu = document.getElementById("menu");
+          const links = document.getElementById("links");
+          const menuIcon = document.querySelector(".open-icon");
+          const close = document.querySelector(".close-icon");
+          const heroPadding = document.querySelector(".hero-padding");
+          const navigation = document.getElementById("navigation");
+          const heroText = document.getElementById("hero-text");
+          const heroSection = document.getElementById("hero-section");
+          const pinkVector = document.getElementById("pink-vector");
+
+          menuIcon.addEventListener("click", () => {
+            menuIcon.classList.add("hidden");
+            close.classList.remove("hidden");
+            links.classList.remove("hidden");
+            links.classList.add("text-primaryGreen");
+            heroText.classList.add("hidden");
+            links.classList.add("h-[100vh]");
+            links.classList.add("mb-[200px]");
+            heroSection.classList.add("-mt-[15.5rem]");
+            heroSection.classList.add("md:mt-[17rem]");
+          });
+          close.addEventListener("click", () => {
+            menuIcon.classList.remove("hidden");
+            close.classList.add("hidden");
+            links.classList.add("hidden");
+            heroText.classList.remove("hidden");
+            heroSection.classList.remove("-mt-[15.5rem]");
+            heroSection.classList.remove("md:mt-[17rem]");
+          });
         });
-    }
+    };
 
     window.onload = () => {
-        loadComponents('header', 'src/sections/header.html');
-        loadComponents('hero', 'src/sections/hero.html');
-        loadComponents('contact', 'src/sections/contact.html');
-        loadComponents('footer', 'src/sections/footer.html');
-    }
-</script>
-<body>
-    <h1 class="bg-purple-600">Hello World</h1>
-    
-</body>
+      loadComponents("navbar", "src/sections/navbar.html");
+      loadComponents("hero", "src/sections/hero.html");
+      loadComponents("about", "src/sections/about.html");
+      loadComponents("footer", "src/sections/footer.html");
+      loadComponents("service", "src/sections/service.html");
+      loadComponents("reference", "src/sections/reference.html");
+    };
+  </script>
+  <body class="relative bg-primaryColor">
+    <div id="navbar"></div>
+    <div class="lg:mt-20" id="hero"></div>
+    <div class="bg-primaryColor" id="about"></div>
+    <div
+      class="sticky top-0 z-40 flex items-center justify-center pb-16 pr-10 lg:pr-24"
+    >
+      <img
+        class="h-[5.44rem] w-[9.12rem] md:h-[6.19rem] md:w-[12.25rem] lg:h-[8.38rem] lg:w-[13rem]"
+        src="/img/vector-6.png"
+        alt="yellow-vector"
+      />
+    </div>
+    <div id="service"></div>
+    <div id="imprint"></div>
+    <div id="privacy"></div>
+    <div class="bg-primaryColor" id="reference"></div>
+    <div id="footer"></div>
+  </body>
 </html>
